@@ -1,0 +1,19 @@
+.project {
+    position: relative;
+}
+
+.project__title {
+    position: absolute;
+    top: 12%;
+    left: 22%;
+}
+
+.project__image {
+    background: var(--bg-image);
+    width: 100%;
+    border-radius: 16px;
+
+    img {
+        width: 100%;
+    }
+}
