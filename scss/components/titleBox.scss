@@ -4,7 +4,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: var(--mb);
+    padding-bottom: var(--pb);
+    margin: auto;
 }
 
 .title-box--row {
@@ -15,7 +16,6 @@
 }
 
 .title-box__title {
-    font-size: 64px;
     font-weight: 500;
     font-family: $fontPrimary;
     letter-spacing: -2px;
@@ -26,7 +26,7 @@
     font-size: 22px;
     letter-spacing: -1px;
     text-align: center;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .title-box--medium {
@@ -39,7 +39,7 @@
 }
 
 .title-box--small {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .title-box__title--small {

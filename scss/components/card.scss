@@ -24,23 +24,17 @@
     }
 }
 
-.card__title {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-}
-
-.user-name {
+.card__user-name {
     font-size: 22px;
     font-family: $fontPrimary;
     color: #2D3958;
+    padding-top: 10px;
 }
 
-.position {
+.card__position {
     text-align: center;
     opacity: 0.8;
+    padding-top: 5px;
 }
 
 .card__comment {
@@ -48,12 +42,12 @@
     font-family: $fontPrimary;
     color: #2D3958;
     font-weight: 500;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .card__description {
     font-size: 18px;
     letter-spacing: -0.3px;
     text-align: center;
-    margin-top: 25px;
+    padding-top: 25px;
 }

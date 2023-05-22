@@ -1,20 +1,11 @@
-.container--blog {
-    padding: 120px 0;
-}
-
 .blog-post {
     padding-bottom: 25px;
     border-bottom: 1px solid #E7E5EA;
 }
 
-.row--blog-page {
-    display: flex;
-    justify-content: center;
-}
-
 .blog-post__image {
     width: 100%;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 
     img {
         width: 100%;
@@ -26,13 +17,13 @@
     font-family: $fontPrimary;
     letter-spacing: -1px;
     color: #2D3958;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .blog-post__description {
     font-size: 18px;
     letter-spacing: -0.3px;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
 }
 
 .blog-post__footer {
@@ -55,10 +46,15 @@
     font-size: 14px;
 }
 
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .blog-thumbnail {
     padding-bottom: 25px;
     border-bottom: 1px solid #E7E5EA;
-    margin-bottom: 30px;
 }
 
 .blog-thumbnail__title {

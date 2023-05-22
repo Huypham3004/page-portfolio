@@ -34,32 +34,61 @@ h5,
 h6 {
   font-family: "Outfit", sans-serif;
   font-weight: 500;
-  line-height: 1.4;
-  color: #111;
+  color: #2D3958;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 64px;
+  line-height: 1.08;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 48px;
+  line-height: 1.17;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 42px;
+  line-height: 1.19;
 }
 
 h4 {
-  font-size: 26px;
+  font-size: 36px;
+  line-height: 1.28;
 }
 
 h5 {
   font-size: 22px;
+  line-height: 1.45;
 }
 
 h6 {
   font-size: 18px;
+  line-height: 1.56;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+}
+
+.pb-130 {
+  padding-bottom: 130px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
 }
 
 .button {
@@ -69,6 +98,7 @@ h6 {
   color: #7B88A8;
   text-transform: uppercase;
   font-family: "Outfit", sans-serif;
+  cursor: pointer;
 }
 
 .button-style-2 {
@@ -112,7 +142,7 @@ h6 {
   background-color: #4F77FF;
 }
 
-.row--footer {
+.footer {
   padding-bottom: 100px;
 }
 
@@ -123,9 +153,8 @@ h6 {
 }
 
 .footer-col__title {
-  font-size: 22px;
-  font-family: "Outfit", sans-serif;
   color: #FFFFFF;
+  font-weight: 400;
 }
 
 .footer-col__item {
@@ -359,7 +388,6 @@ h6 {
 
 .page-section {
   width: 100%;
-  margin-top: 100px;
   position: relative;
 }
 
@@ -402,7 +430,6 @@ h6 {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 70px;
 }
 
 .title-box {
@@ -411,7 +438,8 @@ h6 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: var(--mb);
+  padding-bottom: var(--pb);
+  margin: auto;
 }
 
 .title-box--row {
@@ -422,7 +450,6 @@ h6 {
 }
 
 .title-box__title {
-  font-size: 64px;
   font-weight: 500;
   font-family: "Outfit", sans-serif;
   letter-spacing: -2px;
@@ -433,7 +460,7 @@ h6 {
   font-size: 22px;
   letter-spacing: -1px;
   text-align: center;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .title-box--medium {
@@ -446,7 +473,7 @@ h6 {
 }
 
 .title-box--small {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .title-box__title--small {
@@ -488,23 +515,17 @@ h6 {
   height: 70px;
 }
 
-.card__title {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-}
-
-.user-name {
+.card__user-name {
   font-size: 22px;
   font-family: "Outfit", sans-serif;
   color: #2D3958;
+  padding-top: 10px;
 }
 
-.position {
+.card__position {
   text-align: center;
   opacity: 0.8;
+  padding-top: 5px;
 }
 
 .card__comment {
@@ -512,14 +533,14 @@ h6 {
   font-family: "Outfit", sans-serif;
   color: #2D3958;
   font-weight: 500;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .card__description {
   font-size: 18px;
   letter-spacing: -0.3px;
   text-align: center;
-  margin-top: 25px;
+  padding-top: 25px;
 }
 
 .container--review {
@@ -545,23 +566,14 @@ h6 {
   width: 100%;
 }
 
-.container--blog {
-  padding: 120px 0;
-}
-
 .blog-post {
   padding-bottom: 25px;
   border-bottom: 1px solid #E7E5EA;
 }
 
-.row--blog-page {
-  display: flex;
-  justify-content: center;
-}
-
 .blog-post__image {
   width: 100%;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .blog-post__image img {
   width: 100%;
@@ -572,13 +584,13 @@ h6 {
   font-family: "Outfit", sans-serif;
   letter-spacing: -1px;
   color: #2D3958;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .blog-post__description {
   font-size: 18px;
   letter-spacing: -0.3px;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 .blog-post__footer {
@@ -601,10 +613,15 @@ h6 {
   font-size: 14px;
 }
 
+.thumbnail {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .blog-thumbnail {
   padding-bottom: 25px;
   border-bottom: 1px solid #E7E5EA;
-  margin-bottom: 30px;
 }
 
 .blog-thumbnail__title {
